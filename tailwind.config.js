@@ -1,0 +1,51 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+    height: {
+			"10v": "10vh",
+			"20v": "20vh",
+			"30v": "30vh",
+			"40v": "40vh",
+			"50v": "50vh",
+			"60v": "60vh",
+			"70v": "70vh",
+			"80v": "80vh",
+			"90v": "90vh",
+			"100v": "100vh",
+      "1/5": "20%",
+      "1/6": "15%",
+      "1/8": "12%",
+      "1/10": "10%",
+      "1/20": "5%",
+		},
+    spacing: {
+			"10v": "10vh",
+			"20v": "20vh",
+			"30v": "30vh",
+			"40v": "40vh",
+			"50v": "50vh",
+			"60v": "60vh",
+			"70v": "70vh",
+			"80v": "80vh",
+			"90v": "90vh",
+			"100v": "100vh",
+      "1/5": "20%",
+      "1/6": "15%",
+      "1/8": "12%",
+      "1/10": "10%",
+      "1/20": "5%",
+		},
+    fontFamily: {
+      'sans': ['Comfortaa'],
+      'serif': ['Comfortaa'],
+      'mono': ['Comfortaa'],
+      'display': ['Comfortaa'],
+      'body': ['Comfortaa'],
+    }
+  },
+  plugins: [],
+}
